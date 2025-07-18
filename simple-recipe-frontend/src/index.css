@@ -1,0 +1,23 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Optional smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Apply a consistent font size */
+body {
+  font-size: 16px;
+  color: #333;
+}
